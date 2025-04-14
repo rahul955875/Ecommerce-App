@@ -1,0 +1,1964 @@
+{
+  "data": [
+    {
+      "category": "Party Wear",
+      "products": [
+        {
+          "id": "par_1",
+          "name": "Evening Glam Sari 8183",
+          "price": 5745,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 4.0,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_2",
+          "name": "Evening Glam Sari 2039",
+          "price": 7732,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 3.7,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_3",
+          "name": "Evening Glam Sari 4798",
+          "price": 1011,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 4.2,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_4",
+          "name": "Fancy Flow Sari 3540",
+          "price": 7565,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 4.0,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_5",
+          "name": "Evening Glam Sari 2637",
+          "price": 2712,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 3.8,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_6",
+          "name": "Evening Glam Sari 4067",
+          "price": 1174,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 3.9,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_7",
+          "name": "Fancy Flow Sari 4354",
+          "price": 5227,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 3.9,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_8",
+          "name": "Evening Glam Sari 5146",
+          "price": 6396,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 4.0,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_9",
+          "name": "Glam Look Sari 4044",
+          "price": 8477,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 3.7,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_10",
+          "name": "Fancy Flow Sari 1750",
+          "price": 6638,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 4.4,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_11",
+          "name": "Glam Look Sari 1927",
+          "price": 3736,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 3.6,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_12",
+          "name": "Glam Look Sari 5603",
+          "price": 2813,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 4.7,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_13",
+          "name": "Fancy Flow Sari 9434",
+          "price": 5526,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 3.9,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_14",
+          "name": "Sequin Shine Sari 6848",
+          "price": 3999,
+          "image": "https://source.unsplash.com/400x500/?sari,SequinShine",
+          "rating": 4.0,
+          "description": "Sequin Shine sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_15",
+          "name": "Glam Look Sari 3120",
+          "price": 2606,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 4.1,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_16",
+          "name": "Fancy Flow Sari 4999",
+          "price": 1083,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 4.8,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_17",
+          "name": "Evening Glam Sari 5887",
+          "price": 2425,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 4.7,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_18",
+          "name": "Evening Glam Sari 3730",
+          "price": 9287,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 5.0,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_19",
+          "name": "Glam Look Sari 3214",
+          "price": 7197,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 4.0,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_20",
+          "name": "Fancy Flow Sari 5424",
+          "price": 3906,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 3.5,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_21",
+          "name": "Fancy Flow Sari 6574",
+          "price": 9716,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 4.7,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_22",
+          "name": "Fancy Flow Sari 8767",
+          "price": 8588,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 5.0,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_23",
+          "name": "Glam Look Sari 6662",
+          "price": 5172,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 4.2,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_24",
+          "name": "Evening Glam Sari 4467",
+          "price": 8359,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 4.0,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_25",
+          "name": "Fancy Flow Sari 6846",
+          "price": 2662,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 4.2,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_26",
+          "name": "Fancy Flow Sari 4414",
+          "price": 4905,
+          "image": "https://source.unsplash.com/400x500/?sari,FancyFlow",
+          "rating": 4.2,
+          "description": "Fancy Flow sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_27",
+          "name": "Glam Look Sari 5759",
+          "price": 3893,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 4.3,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_28",
+          "name": "Evening Glam Sari 1069",
+          "price": 6624,
+          "image": "https://source.unsplash.com/400x500/?sari,EveningGlam",
+          "rating": 4.8,
+          "description": "Evening Glam sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_29",
+          "name": "Sequin Shine Sari 4971",
+          "price": 7119,
+          "image": "https://source.unsplash.com/400x500/?sari,SequinShine",
+          "rating": 3.5,
+          "description": "Sequin Shine sari, perfect for party wear occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "par_30",
+          "name": "Glam Look Sari 5870",
+          "price": 5792,
+          "image": "https://source.unsplash.com/400x500/?sari,GlamLook",
+          "rating": 3.9,
+          "description": "Glam Look sari, perfect for party wear occasions. Beautiful and elegant design."
+        }
+      ]
+    },
+    {
+      "category": "Trending",
+      "products": [
+        {
+          "id": "tre_1",
+          "name": "Modern Prints Sari 7088",
+          "price": 8099,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 4.2,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_2",
+          "name": "Geometric Art Sari 2896",
+          "price": 9641,
+          "image": "https://source.unsplash.com/400x500/?sari,GeometricArt",
+          "rating": 3.9,
+          "description": "Geometric Art sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_3",
+          "name": "Pastel Shades Sari 1693",
+          "price": 8169,
+          "image": "https://source.unsplash.com/400x500/?sari,PastelShades",
+          "rating": 4.6,
+          "description": "Pastel Shades sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_4",
+          "name": "Street Style Sari 6858",
+          "price": 9783,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 4.3,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_5",
+          "name": "Modern Prints Sari 3868",
+          "price": 1137,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 4.7,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_6",
+          "name": "Street Style Sari 8232",
+          "price": 5965,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 4.4,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_7",
+          "name": "Geometric Art Sari 7552",
+          "price": 7586,
+          "image": "https://source.unsplash.com/400x500/?sari,GeometricArt",
+          "rating": 4.4,
+          "description": "Geometric Art sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_8",
+          "name": "Street Style Sari 3128",
+          "price": 4320,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 3.5,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_9",
+          "name": "Street Style Sari 9981",
+          "price": 3353,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 3.6,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_10",
+          "name": "Modern Prints Sari 6960",
+          "price": 5210,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 4.4,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_11",
+          "name": "Modern Prints Sari 5673",
+          "price": 1797,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 3.8,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_12",
+          "name": "Geometric Art Sari 5636",
+          "price": 9272,
+          "image": "https://source.unsplash.com/400x500/?sari,GeometricArt",
+          "rating": 3.5,
+          "description": "Geometric Art sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_13",
+          "name": "Pastel Shades Sari 3828",
+          "price": 1969,
+          "image": "https://source.unsplash.com/400x500/?sari,PastelShades",
+          "rating": 4.3,
+          "description": "Pastel Shades sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_14",
+          "name": "Modern Prints Sari 8790",
+          "price": 3665,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 4.2,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_15",
+          "name": "Modern Prints Sari 5670",
+          "price": 3840,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 4.2,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_16",
+          "name": "Pastel Shades Sari 1945",
+          "price": 8751,
+          "image": "https://source.unsplash.com/400x500/?sari,PastelShades",
+          "rating": 5.0,
+          "description": "Pastel Shades sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_17",
+          "name": "Modern Prints Sari 6412",
+          "price": 2536,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 4.9,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_18",
+          "name": "Street Style Sari 3214",
+          "price": 1190,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 4.7,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_19",
+          "name": "Street Style Sari 4699",
+          "price": 7169,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 4.0,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_20",
+          "name": "Street Style Sari 4130",
+          "price": 1675,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 4.1,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_21",
+          "name": "Street Style Sari 2540",
+          "price": 4336,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 4.8,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_22",
+          "name": "Modern Prints Sari 9954",
+          "price": 1397,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 3.7,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_23",
+          "name": "Pastel Shades Sari 4698",
+          "price": 5581,
+          "image": "https://source.unsplash.com/400x500/?sari,PastelShades",
+          "rating": 4.1,
+          "description": "Pastel Shades sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_24",
+          "name": "Pastel Shades Sari 2525",
+          "price": 7438,
+          "image": "https://source.unsplash.com/400x500/?sari,PastelShades",
+          "rating": 3.9,
+          "description": "Pastel Shades sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_25",
+          "name": "Pastel Shades Sari 4057",
+          "price": 1377,
+          "image": "https://source.unsplash.com/400x500/?sari,PastelShades",
+          "rating": 4.6,
+          "description": "Pastel Shades sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_26",
+          "name": "Pastel Shades Sari 9063",
+          "price": 2294,
+          "image": "https://source.unsplash.com/400x500/?sari,PastelShades",
+          "rating": 4.5,
+          "description": "Pastel Shades sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_27",
+          "name": "Street Style Sari 9929",
+          "price": 8466,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 4.4,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_28",
+          "name": "Geometric Art Sari 5130",
+          "price": 2154,
+          "image": "https://source.unsplash.com/400x500/?sari,GeometricArt",
+          "rating": 4.2,
+          "description": "Geometric Art sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_29",
+          "name": "Street Style Sari 8755",
+          "price": 2270,
+          "image": "https://source.unsplash.com/400x500/?sari,StreetStyle",
+          "rating": 3.8,
+          "description": "Street Style sari, perfect for trending occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "tre_30",
+          "name": "Modern Prints Sari 5744",
+          "price": 7088,
+          "image": "https://source.unsplash.com/400x500/?sari,ModernPrints",
+          "rating": 4.8,
+          "description": "Modern Prints sari, perfect for trending occasions. Beautiful and elegant design."
+        }
+      ]
+    },
+    {
+      "category": "Wedding",
+      "products": [
+        {
+          "id": "wed_1",
+          "name": "Traditional Red Sari 5107",
+          "price": 2000,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 4.4,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_2",
+          "name": "Heavy Border Sari 8027",
+          "price": 1655,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyBorder",
+          "rating": 4.1,
+          "description": "Heavy Border sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_3",
+          "name": "Heavy Border Sari 5060",
+          "price": 7124,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyBorder",
+          "rating": 3.7,
+          "description": "Heavy Border sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_4",
+          "name": "Bridal Glow Sari 6783",
+          "price": 4546,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 4.1,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_5",
+          "name": "Traditional Red Sari 8102",
+          "price": 2812,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 4.9,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_6",
+          "name": "Traditional Red Sari 5670",
+          "price": 6041,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 3.9,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_7",
+          "name": "Bridal Glow Sari 1253",
+          "price": 8111,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 4.3,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_8",
+          "name": "Traditional Red Sari 1997",
+          "price": 8472,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 3.8,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_9",
+          "name": "Heavy Border Sari 2504",
+          "price": 8730,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyBorder",
+          "rating": 4.3,
+          "description": "Heavy Border sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_10",
+          "name": "Bridal Glow Sari 9117",
+          "price": 6394,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 3.9,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_11",
+          "name": "Bridal Glow Sari 7812",
+          "price": 7721,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 3.8,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_12",
+          "name": "Golden Zari Sari 5605",
+          "price": 7714,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenZari",
+          "rating": 4.6,
+          "description": "Golden Zari sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_13",
+          "name": "Traditional Red Sari 7275",
+          "price": 7180,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 4.2,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_14",
+          "name": "Traditional Red Sari 4890",
+          "price": 5547,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 3.8,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_15",
+          "name": "Golden Zari Sari 3319",
+          "price": 8096,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenZari",
+          "rating": 4.4,
+          "description": "Golden Zari sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_16",
+          "name": "Traditional Red Sari 5677",
+          "price": 9740,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 5.0,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_17",
+          "name": "Heavy Border Sari 8449",
+          "price": 9638,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyBorder",
+          "rating": 4.9,
+          "description": "Heavy Border sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_18",
+          "name": "Bridal Glow Sari 9596",
+          "price": 4098,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 4.0,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_19",
+          "name": "Bridal Glow Sari 1071",
+          "price": 1667,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 4.7,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_20",
+          "name": "Traditional Red Sari 1546",
+          "price": 8522,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 3.6,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_21",
+          "name": "Bridal Glow Sari 4965",
+          "price": 3689,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 3.6,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_22",
+          "name": "Golden Zari Sari 1057",
+          "price": 9492,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenZari",
+          "rating": 4.1,
+          "description": "Golden Zari sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_23",
+          "name": "Bridal Glow Sari 1931",
+          "price": 3650,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 4.6,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_24",
+          "name": "Heavy Border Sari 7988",
+          "price": 3367,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyBorder",
+          "rating": 3.6,
+          "description": "Heavy Border sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_25",
+          "name": "Traditional Red Sari 2624",
+          "price": 2138,
+          "image": "https://source.unsplash.com/400x500/?sari,TraditionalRed",
+          "rating": 4.1,
+          "description": "Traditional Red sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_26",
+          "name": "Golden Zari Sari 1963",
+          "price": 6679,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenZari",
+          "rating": 4.5,
+          "description": "Golden Zari sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_27",
+          "name": "Bridal Glow Sari 7925",
+          "price": 1004,
+          "image": "https://source.unsplash.com/400x500/?sari,BridalGlow",
+          "rating": 4.6,
+          "description": "Bridal Glow sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_28",
+          "name": "Heavy Border Sari 7930",
+          "price": 1425,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyBorder",
+          "rating": 4.4,
+          "description": "Heavy Border sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_29",
+          "name": "Golden Zari Sari 7114",
+          "price": 7991,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenZari",
+          "rating": 3.6,
+          "description": "Golden Zari sari, perfect for wedding occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "wed_30",
+          "name": "Heavy Border Sari 6748",
+          "price": 4482,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyBorder",
+          "rating": 3.8,
+          "description": "Heavy Border sari, perfect for wedding occasions. Beautiful and elegant design."
+        }
+      ]
+    },
+    {
+      "category": "Recommended",
+      "products": [
+        {
+          "id": "rec_1",
+          "name": "Top Rated Sari 7753",
+          "price": 8022,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 4.1,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_2",
+          "name": "Top Rated Sari 3668",
+          "price": 2262,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 4.3,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_3",
+          "name": "Top Rated Sari 3602",
+          "price": 2088,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 4.2,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_4",
+          "name": "Editor Pick Sari 3708",
+          "price": 9442,
+          "image": "https://source.unsplash.com/400x500/?sari,EditorPick",
+          "rating": 3.6,
+          "description": "Editor Pick sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_5",
+          "name": "Most Loved Sari 1285",
+          "price": 5198,
+          "image": "https://source.unsplash.com/400x500/?sari,MostLoved",
+          "rating": 4.1,
+          "description": "Most Loved sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_6",
+          "name": "Top Rated Sari 3941",
+          "price": 2494,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 3.5,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_7",
+          "name": "Top Rated Sari 3720",
+          "price": 6341,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 4.0,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_8",
+          "name": "Customer Favorite Sari 3560",
+          "price": 2944,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.2,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_9",
+          "name": "Customer Favorite Sari 8559",
+          "price": 6672,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.0,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_10",
+          "name": "Customer Favorite Sari 9565",
+          "price": 2721,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.0,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_11",
+          "name": "Editor Pick Sari 8152",
+          "price": 8098,
+          "image": "https://source.unsplash.com/400x500/?sari,EditorPick",
+          "rating": 3.9,
+          "description": "Editor Pick sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_12",
+          "name": "Customer Favorite Sari 9733",
+          "price": 8070,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.1,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_13",
+          "name": "Customer Favorite Sari 1964",
+          "price": 2357,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.1,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_14",
+          "name": "Editor Pick Sari 3199",
+          "price": 8816,
+          "image": "https://source.unsplash.com/400x500/?sari,EditorPick",
+          "rating": 4.2,
+          "description": "Editor Pick sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_15",
+          "name": "Customer Favorite Sari 2074",
+          "price": 8084,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.5,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_16",
+          "name": "Top Rated Sari 3277",
+          "price": 2339,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 4.7,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_17",
+          "name": "Top Rated Sari 5827",
+          "price": 1183,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 3.7,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_18",
+          "name": "Customer Favorite Sari 7024",
+          "price": 3280,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.0,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_19",
+          "name": "Most Loved Sari 4177",
+          "price": 4023,
+          "image": "https://source.unsplash.com/400x500/?sari,MostLoved",
+          "rating": 4.0,
+          "description": "Most Loved sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_20",
+          "name": "Top Rated Sari 4633",
+          "price": 3228,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 4.0,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_21",
+          "name": "Customer Favorite Sari 2031",
+          "price": 6782,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 4.9,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_22",
+          "name": "Top Rated Sari 2628",
+          "price": 2319,
+          "image": "https://source.unsplash.com/400x500/?sari,TopRated",
+          "rating": 4.0,
+          "description": "Top Rated sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_23",
+          "name": "Most Loved Sari 2391",
+          "price": 8621,
+          "image": "https://source.unsplash.com/400x500/?sari,MostLoved",
+          "rating": 4.1,
+          "description": "Most Loved sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_24",
+          "name": "Most Loved Sari 8449",
+          "price": 4560,
+          "image": "https://source.unsplash.com/400x500/?sari,MostLoved",
+          "rating": 4.8,
+          "description": "Most Loved sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_25",
+          "name": "Customer Favorite Sari 1123",
+          "price": 3512,
+          "image": "https://source.unsplash.com/400x500/?sari,CustomerFavorite",
+          "rating": 3.7,
+          "description": "Customer Favorite sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_26",
+          "name": "Most Loved Sari 9407",
+          "price": 4151,
+          "image": "https://source.unsplash.com/400x500/?sari,MostLoved",
+          "rating": 4.5,
+          "description": "Most Loved sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_27",
+          "name": "Editor Pick Sari 7266",
+          "price": 8228,
+          "image": "https://source.unsplash.com/400x500/?sari,EditorPick",
+          "rating": 3.6,
+          "description": "Editor Pick sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_28",
+          "name": "Editor Pick Sari 6936",
+          "price": 7484,
+          "image": "https://source.unsplash.com/400x500/?sari,EditorPick",
+          "rating": 3.5,
+          "description": "Editor Pick sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_29",
+          "name": "Most Loved Sari 9597",
+          "price": 2423,
+          "image": "https://source.unsplash.com/400x500/?sari,MostLoved",
+          "rating": 4.9,
+          "description": "Most Loved sari, perfect for recommended occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "rec_30",
+          "name": "Editor Pick Sari 5019",
+          "price": 4112,
+          "image": "https://source.unsplash.com/400x500/?sari,EditorPick",
+          "rating": 4.5,
+          "description": "Editor Pick sari, perfect for recommended occasions. Beautiful and elegant design."
+        }
+      ]
+    },
+    {
+      "category": "Daily Use",
+      "products": [
+        {
+          "id": "dai_1",
+          "name": "Lightweight Wear Sari 4761",
+          "price": 1207,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 5.0,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_2",
+          "name": "Lightweight Wear Sari 2442",
+          "price": 2058,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 3.8,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_3",
+          "name": "Easy Drape Sari 5328",
+          "price": 3501,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 4.4,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_4",
+          "name": "Lightweight Wear Sari 9242",
+          "price": 7006,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 3.7,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_5",
+          "name": "Lightweight Wear Sari 5517",
+          "price": 3075,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 4.8,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_6",
+          "name": "Lightweight Wear Sari 3549",
+          "price": 4990,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 3.8,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_7",
+          "name": "Easy Drape Sari 8704",
+          "price": 2171,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 3.5,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_8",
+          "name": "Soft Cotton Sari 5108",
+          "price": 9658,
+          "image": "https://source.unsplash.com/400x500/?sari,SoftCotton",
+          "rating": 4.2,
+          "description": "Soft Cotton sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_9",
+          "name": "Workday Special Sari 6847",
+          "price": 2424,
+          "image": "https://source.unsplash.com/400x500/?sari,WorkdaySpecial",
+          "rating": 3.7,
+          "description": "Workday Special sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_10",
+          "name": "Lightweight Wear Sari 4952",
+          "price": 8144,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 4.5,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_11",
+          "name": "Easy Drape Sari 2653",
+          "price": 7168,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 3.7,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_12",
+          "name": "Workday Special Sari 4242",
+          "price": 7714,
+          "image": "https://source.unsplash.com/400x500/?sari,WorkdaySpecial",
+          "rating": 4.0,
+          "description": "Workday Special sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_13",
+          "name": "Lightweight Wear Sari 7048",
+          "price": 4847,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 3.6,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_14",
+          "name": "Easy Drape Sari 8399",
+          "price": 8615,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 4.5,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_15",
+          "name": "Workday Special Sari 2445",
+          "price": 6028,
+          "image": "https://source.unsplash.com/400x500/?sari,WorkdaySpecial",
+          "rating": 4.5,
+          "description": "Workday Special sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_16",
+          "name": "Soft Cotton Sari 7868",
+          "price": 8122,
+          "image": "https://source.unsplash.com/400x500/?sari,SoftCotton",
+          "rating": 4.5,
+          "description": "Soft Cotton sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_17",
+          "name": "Easy Drape Sari 5565",
+          "price": 7160,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 4.2,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_18",
+          "name": "Soft Cotton Sari 5275",
+          "price": 3784,
+          "image": "https://source.unsplash.com/400x500/?sari,SoftCotton",
+          "rating": 3.9,
+          "description": "Soft Cotton sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_19",
+          "name": "Soft Cotton Sari 6241",
+          "price": 5481,
+          "image": "https://source.unsplash.com/400x500/?sari,SoftCotton",
+          "rating": 4.6,
+          "description": "Soft Cotton sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_20",
+          "name": "Easy Drape Sari 9988",
+          "price": 3888,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 4.4,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_21",
+          "name": "Easy Drape Sari 1482",
+          "price": 8450,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 4.6,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_22",
+          "name": "Easy Drape Sari 4837",
+          "price": 8286,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 4.6,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_23",
+          "name": "Soft Cotton Sari 9300",
+          "price": 8977,
+          "image": "https://source.unsplash.com/400x500/?sari,SoftCotton",
+          "rating": 4.1,
+          "description": "Soft Cotton sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_24",
+          "name": "Easy Drape Sari 8174",
+          "price": 2343,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 5.0,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_25",
+          "name": "Soft Cotton Sari 5884",
+          "price": 7014,
+          "image": "https://source.unsplash.com/400x500/?sari,SoftCotton",
+          "rating": 4.0,
+          "description": "Soft Cotton sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_26",
+          "name": "Lightweight Wear Sari 9440",
+          "price": 9988,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 4.5,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_27",
+          "name": "Lightweight Wear Sari 6252",
+          "price": 1007,
+          "image": "https://source.unsplash.com/400x500/?sari,LightweightWear",
+          "rating": 4.4,
+          "description": "Lightweight Wear sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_28",
+          "name": "Workday Special Sari 6833",
+          "price": 3406,
+          "image": "https://source.unsplash.com/400x500/?sari,WorkdaySpecial",
+          "rating": 3.7,
+          "description": "Workday Special sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_29",
+          "name": "Easy Drape Sari 4938",
+          "price": 2425,
+          "image": "https://source.unsplash.com/400x500/?sari,EasyDrape",
+          "rating": 4.4,
+          "description": "Easy Drape sari, perfect for daily use occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "dai_30",
+          "name": "Workday Special Sari 2454",
+          "price": 1214,
+          "image": "https://source.unsplash.com/400x500/?sari,WorkdaySpecial",
+          "rating": 4.4,
+          "description": "Workday Special sari, perfect for daily use occasions. Beautiful and elegant design."
+        }
+      ]
+    },
+    {
+      "category": "New Arrivals",
+      "products": [
+        {
+          "id": "new_1",
+          "name": "Latest Style Sari 9641",
+          "price": 8786,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 4.7,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_2",
+          "name": "New In Sari 8961",
+          "price": 8023,
+          "image": "https://source.unsplash.com/400x500/?sari,NewIn",
+          "rating": 4.8,
+          "description": "New In sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_3",
+          "name": "Fresh Launch Sari 3031",
+          "price": 4491,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 4.5,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_4",
+          "name": "Fresh Launch Sari 9044",
+          "price": 9635,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 4.7,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_5",
+          "name": "Just Dropped Sari 8796",
+          "price": 7942,
+          "image": "https://source.unsplash.com/400x500/?sari,JustDropped",
+          "rating": 3.5,
+          "description": "Just Dropped sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_6",
+          "name": "Just Dropped Sari 8988",
+          "price": 7691,
+          "image": "https://source.unsplash.com/400x500/?sari,JustDropped",
+          "rating": 4.2,
+          "description": "Just Dropped sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_7",
+          "name": "Latest Style Sari 7514",
+          "price": 6157,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 4.4,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_8",
+          "name": "Just Dropped Sari 6119",
+          "price": 3840,
+          "image": "https://source.unsplash.com/400x500/?sari,JustDropped",
+          "rating": 4.7,
+          "description": "Just Dropped sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_9",
+          "name": "Just Dropped Sari 1192",
+          "price": 1841,
+          "image": "https://source.unsplash.com/400x500/?sari,JustDropped",
+          "rating": 3.9,
+          "description": "Just Dropped sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_10",
+          "name": "New In Sari 5912",
+          "price": 2440,
+          "image": "https://source.unsplash.com/400x500/?sari,NewIn",
+          "rating": 4.7,
+          "description": "New In sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_11",
+          "name": "Fresh Launch Sari 6205",
+          "price": 6877,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 3.6,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_12",
+          "name": "New In Sari 1396",
+          "price": 8598,
+          "image": "https://source.unsplash.com/400x500/?sari,NewIn",
+          "rating": 4.2,
+          "description": "New In sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_13",
+          "name": "Latest Style Sari 6852",
+          "price": 7662,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 4.6,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_14",
+          "name": "Just Dropped Sari 8233",
+          "price": 3340,
+          "image": "https://source.unsplash.com/400x500/?sari,JustDropped",
+          "rating": 3.7,
+          "description": "Just Dropped sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_15",
+          "name": "Latest Style Sari 8746",
+          "price": 6887,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 4.0,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_16",
+          "name": "New In Sari 5465",
+          "price": 6360,
+          "image": "https://source.unsplash.com/400x500/?sari,NewIn",
+          "rating": 3.9,
+          "description": "New In sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_17",
+          "name": "New In Sari 5828",
+          "price": 6141,
+          "image": "https://source.unsplash.com/400x500/?sari,NewIn",
+          "rating": 4.0,
+          "description": "New In sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_18",
+          "name": "Just Dropped Sari 6377",
+          "price": 8624,
+          "image": "https://source.unsplash.com/400x500/?sari,JustDropped",
+          "rating": 4.4,
+          "description": "Just Dropped sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_19",
+          "name": "Latest Style Sari 9803",
+          "price": 2677,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 3.9,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_20",
+          "name": "Fresh Launch Sari 9741",
+          "price": 9155,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 4.4,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_21",
+          "name": "Latest Style Sari 5499",
+          "price": 2676,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 4.3,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_22",
+          "name": "New In Sari 8513",
+          "price": 4651,
+          "image": "https://source.unsplash.com/400x500/?sari,NewIn",
+          "rating": 3.8,
+          "description": "New In sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_23",
+          "name": "Fresh Launch Sari 6972",
+          "price": 9602,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 3.9,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_24",
+          "name": "Just Dropped Sari 5068",
+          "price": 8329,
+          "image": "https://source.unsplash.com/400x500/?sari,JustDropped",
+          "rating": 3.7,
+          "description": "Just Dropped sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_25",
+          "name": "Fresh Launch Sari 5928",
+          "price": 6911,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 3.9,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_26",
+          "name": "Fresh Launch Sari 6743",
+          "price": 6628,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 4.4,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_27",
+          "name": "Latest Style Sari 4225",
+          "price": 9140,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 4.6,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_28",
+          "name": "Fresh Launch Sari 7825",
+          "price": 8982,
+          "image": "https://source.unsplash.com/400x500/?sari,FreshLaunch",
+          "rating": 3.9,
+          "description": "Fresh Launch sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_29",
+          "name": "Latest Style Sari 3313",
+          "price": 2800,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 4.0,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "new_30",
+          "name": "Latest Style Sari 3469",
+          "price": 3634,
+          "image": "https://source.unsplash.com/400x500/?sari,LatestStyle",
+          "rating": 3.9,
+          "description": "Latest Style sari, perfect for new arrivals occasions. Beautiful and elegant design."
+        }
+      ]
+    },
+    {
+      "category": "Bridal",
+      "products": [
+        {
+          "id": "bri_1",
+          "name": "Zari Royal Sari 8637",
+          "price": 7950,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 5.0,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_2",
+          "name": "Heavy Work Sari 5958",
+          "price": 7467,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyWork",
+          "rating": 3.7,
+          "description": "Heavy Work sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_3",
+          "name": "Golden Touch Sari 7803",
+          "price": 5561,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 4.1,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_4",
+          "name": "Zari Royal Sari 1528",
+          "price": 8257,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 4.0,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_5",
+          "name": "Golden Touch Sari 8412",
+          "price": 6569,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 4.6,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_6",
+          "name": "Zari Royal Sari 1526",
+          "price": 4169,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 4.3,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_7",
+          "name": "Golden Touch Sari 4191",
+          "price": 5565,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 3.5,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_8",
+          "name": "Golden Touch Sari 1268",
+          "price": 5822,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 4.2,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_9",
+          "name": "Golden Touch Sari 9896",
+          "price": 7151,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 4.2,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_10",
+          "name": "Wedding Special Sari 5927",
+          "price": 8348,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.8,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_11",
+          "name": "Zari Royal Sari 3039",
+          "price": 4012,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 4.1,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_12",
+          "name": "Wedding Special Sari 5310",
+          "price": 3578,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.8,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_13",
+          "name": "Zari Royal Sari 8545",
+          "price": 9068,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 4.2,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_14",
+          "name": "Wedding Special Sari 9582",
+          "price": 1387,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.1,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_15",
+          "name": "Wedding Special Sari 9903",
+          "price": 2526,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.8,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_16",
+          "name": "Wedding Special Sari 8734",
+          "price": 8921,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.6,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_17",
+          "name": "Zari Royal Sari 3840",
+          "price": 4615,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 4.1,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_18",
+          "name": "Wedding Special Sari 1961",
+          "price": 5617,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.4,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_19",
+          "name": "Zari Royal Sari 6420",
+          "price": 4762,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 4.1,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_20",
+          "name": "Heavy Work Sari 7861",
+          "price": 8242,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyWork",
+          "rating": 4.1,
+          "description": "Heavy Work sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_21",
+          "name": "Heavy Work Sari 7794",
+          "price": 7482,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyWork",
+          "rating": 4.6,
+          "description": "Heavy Work sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_22",
+          "name": "Golden Touch Sari 9732",
+          "price": 2130,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 4.6,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_23",
+          "name": "Golden Touch Sari 9944",
+          "price": 8572,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 4.0,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_24",
+          "name": "Wedding Special Sari 8897",
+          "price": 5572,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.3,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_25",
+          "name": "Golden Touch Sari 5215",
+          "price": 3097,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 4.8,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_26",
+          "name": "Wedding Special Sari 1782",
+          "price": 5312,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 3.5,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_27",
+          "name": "Heavy Work Sari 5085",
+          "price": 5556,
+          "image": "https://source.unsplash.com/400x500/?sari,HeavyWork",
+          "rating": 3.8,
+          "description": "Heavy Work sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_28",
+          "name": "Wedding Special Sari 8284",
+          "price": 5938,
+          "image": "https://source.unsplash.com/400x500/?sari,WeddingSpecial",
+          "rating": 4.3,
+          "description": "Wedding Special sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_29",
+          "name": "Golden Touch Sari 3711",
+          "price": 8944,
+          "image": "https://source.unsplash.com/400x500/?sari,GoldenTouch",
+          "rating": 3.5,
+          "description": "Golden Touch sari, perfect for bridal occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "bri_30",
+          "name": "Zari Royal Sari 1212",
+          "price": 1636,
+          "image": "https://source.unsplash.com/400x500/?sari,ZariRoyal",
+          "rating": 4.0,
+          "description": "Zari Royal sari, perfect for bridal occasions. Beautiful and elegant design."
+        }
+      ]
+    },
+    {
+      "category": "Silk",
+      "products": [
+        {
+          "id": "sil_1",
+          "name": "Tussar Sari 4298",
+          "price": 2973,
+          "image": "https://source.unsplash.com/400x500/?sari,Tussar",
+          "rating": 3.6,
+          "description": "Tussar sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_2",
+          "name": "Tussar Sari 6200",
+          "price": 4634,
+          "image": "https://source.unsplash.com/400x500/?sari,Tussar",
+          "rating": 4.0,
+          "description": "Tussar sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_3",
+          "name": "Banarasi Sari 2862",
+          "price": 1114,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 3.7,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_4",
+          "name": "Pure Silk Sari 3704",
+          "price": 2128,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 4.8,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_5",
+          "name": "Pure Silk Sari 2263",
+          "price": 9042,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 4.9,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_6",
+          "name": "Kanjeevaram Sari 3765",
+          "price": 2583,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 4.6,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_7",
+          "name": "Banarasi Sari 8978",
+          "price": 1395,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 3.7,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_8",
+          "name": "Pure Silk Sari 2517",
+          "price": 4354,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 4.1,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_9",
+          "name": "Pure Silk Sari 6746",
+          "price": 1644,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 4.5,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_10",
+          "name": "Banarasi Sari 2157",
+          "price": 1896,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 4.3,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_11",
+          "name": "Pure Silk Sari 8461",
+          "price": 8503,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 3.5,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_12",
+          "name": "Kanjeevaram Sari 4364",
+          "price": 1552,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 5.0,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_13",
+          "name": "Banarasi Sari 2268",
+          "price": 1634,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 4.7,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_14",
+          "name": "Banarasi Sari 3495",
+          "price": 2601,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 3.9,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_15",
+          "name": "Tussar Sari 8536",
+          "price": 7695,
+          "image": "https://source.unsplash.com/400x500/?sari,Tussar",
+          "rating": 4.1,
+          "description": "Tussar sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_16",
+          "name": "Kanjeevaram Sari 1538",
+          "price": 7451,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 4.0,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_17",
+          "name": "Kanjeevaram Sari 5202",
+          "price": 2136,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 4.0,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_18",
+          "name": "Banarasi Sari 2988",
+          "price": 7287,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 4.5,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_19",
+          "name": "Pure Silk Sari 3652",
+          "price": 6687,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 4.7,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_20",
+          "name": "Kanjeevaram Sari 2435",
+          "price": 3172,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 4.8,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_21",
+          "name": "Kanjeevaram Sari 3942",
+          "price": 3316,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 3.7,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_22",
+          "name": "Banarasi Sari 1576",
+          "price": 3795,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 4.1,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_23",
+          "name": "Pure Silk Sari 9551",
+          "price": 5965,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 4.6,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_24",
+          "name": "Kanjeevaram Sari 5524",
+          "price": 5328,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 4.4,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_25",
+          "name": "Banarasi Sari 4520",
+          "price": 6205,
+          "image": "https://source.unsplash.com/400x500/?sari,Banarasi",
+          "rating": 4.5,
+          "description": "Banarasi sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_26",
+          "name": "Kanjeevaram Sari 7837",
+          "price": 1277,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 4.7,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_27",
+          "name": "Kanjeevaram Sari 3423",
+          "price": 6447,
+          "image": "https://source.unsplash.com/400x500/?sari,Kanjeevaram",
+          "rating": 4.1,
+          "description": "Kanjeevaram sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_28",
+          "name": "Tussar Sari 6060",
+          "price": 5534,
+          "image": "https://source.unsplash.com/400x500/?sari,Tussar",
+          "rating": 3.9,
+          "description": "Tussar sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_29",
+          "name": "Tussar Sari 9851",
+          "price": 7990,
+          "image": "https://source.unsplash.com/400x500/?sari,Tussar",
+          "rating": 4.4,
+          "description": "Tussar sari, perfect for silk occasions. Beautiful and elegant design."
+        },
+        {
+          "id": "sil_30",
+          "name": "Pure Silk Sari 7301",
+          "price": 3008,
+          "image": "https://source.unsplash.com/400x500/?sari,PureSilk",
+          "rating": 3.9,
+          "description": "Pure Silk sari, perfect for silk occasions. Beautiful and elegant design."
+        }
+      ]
+    }
+  ]
+}
