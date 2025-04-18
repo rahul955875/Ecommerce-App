@@ -54,7 +54,9 @@ const Home = () => {
                     <p className="text-gray-700">Rating : {product.rating}</p>
                     <button
                       className=" mt-4 px-4 py-2 bg-blue-300 text-black  rounded-4xl hover:bg-black hover:text-white"
-                      onClick={() => dispatch(addToCart({...product, count:1}))}
+                      onClick={() =>
+                        dispatch(addToCart({ ...product, count: 1 }))
+                      }
                     >
                       Add to cart
                     </button>

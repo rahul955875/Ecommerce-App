@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link,useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -7,6 +7,8 @@ const RegisterPage = () => {
     username: "",
     email: "",
     password: "",
+    phone: "",
+    address: "",
   });
   const handleInput = (e) => {
     setUserData((prevState) => ({
@@ -34,10 +36,10 @@ const RegisterPage = () => {
   };
   return (
     <div className="container mt-8">
-      <form className="w-6/12 mx-auto shadow-lg" onSubmit={saveDataOnLocal}>
+      <form className="w-4/12 mx-auto shadow-lg" onSubmit={saveDataOnLocal}>
         <div className="p-8">
           <h2 className="text-4xl mb-8 font-medium">Register</h2>
-          <div className="col-12 mt-3">
+          <div className=" mt-3">
             <input
               type="text"
               placeholder="Enter Your Username"
@@ -48,7 +50,7 @@ const RegisterPage = () => {
               onChange={handleInput}
             />
           </div>
-          <div className="col-12">
+          <div className="">
             <input
               type="email"
               placeholder="Enter Your Email"
@@ -59,7 +61,7 @@ const RegisterPage = () => {
               onChange={handleInput}
             />
           </div>
-          <div className="col-12">
+          <div className="">
             <input
               type="password"
               placeholder="Enter Your Password"
@@ -70,13 +72,40 @@ const RegisterPage = () => {
               onChange={handleInput}
             />
           </div>
-          <div className="col-12">
-            <button type="submit" className="my-4 bg-blue-500 text-white px-8 py-2 rounded-lg">
+          <div className="">
+            <input
+              type="password"
+              placeholder="Enter Your Phone"
+              className="w-full p-4 border border-gray-200 mt-4 rounded-2xl shadow-lg"
+              required
+              name="phone"
+              value={userData.phone}
+              onChange={handleInput}
+            />
+          </div>
+          <div className="">
+            <input
+              type="text"
+              placeholder="Enter Your Address"
+              className="w-full p-4 border border-gray-200 mt-4 rounded-2xl shadow-lg"
+              required
+              name="address"
+              value={userData.address}
+              onChange={handleInput}
+            />
+          </div>
+          <div className="">
+            <button
+              type="submit"
+              className="my-4 bg-blue-500 text-white px-8 py-2 rounded-lg"
+            >
               Register
             </button>
           </div>
           <div>
-            <Link to="/" className="underline">Alerdy have an account?</Link>
+            <Link to="/" className="underline">
+              Alerdy have an account?
+            </Link>
           </div>
         </div>
       </form>
