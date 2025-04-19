@@ -10,15 +10,18 @@ import ContactUs from "./components/ContactUs";
 import { Provider } from "react-redux";
 import store from "./redux_store/store";
 import Cart from "./components/Cart";
+import { Toaster } from "react-hot-toast";
+import Auth from "./components/Auth";
 function App() {
   return (
-    <Provider store={store}>
+    <>
       <Header />
       <main className="mt-16">
+        <Toaster />
         <Outlet />
       </main>
       <Footer />
-    </Provider>
+      </>
   );
 }
 
@@ -31,16 +34,23 @@ export const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/about", element: <About /> },
       { path: "/contactus", element: <ContactUs /> },
-      { path: "/cart", element: <Cart/> }
+      { path: "/cart", element: <Cart /> },
+      
     ],
   },
   {
-    path: "/login",
-    element: <LoginPage />,
-  },
-  {
-    path: "/register",
-    element: <RegisterPage />,
+    path: "/auth",
+    element : <Auth/>,
+    children: [
+      {
+        path: '/auth/login',
+        element: <LoginPage />,
+      },
+      {
+        path: "/auth/Register",
+        element: <RegisterPage />,
+      },
+    ],
   },
 ]);
 

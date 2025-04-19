@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { addToCart } from "../redux_store/cartSlice";
 const Home = () => {
   const dispatch = useDispatch();
+  const auth = useSelector(state => state.login.auth)
   const [productAllData, setProductAllData] = useState([]);
   useEffect(() => {
     fetch("jmd_structured_saris_data.json")
@@ -11,7 +12,8 @@ const Home = () => {
       .then((data) => setProductAllData(data.data));
   }, []);
   console.log(productAllData.data);
-  return (
+  return <pre className="mt-20">{JSON.stringify(auth,null,100)}</pre>
+  return ( 
     <div className="min-h-100 py-8 px-8">
       <h2 className="text-2xl">OUR COLLECTIONS</h2>
       <div className="products-link mt-8">

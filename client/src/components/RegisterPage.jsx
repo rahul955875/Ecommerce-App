@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router";
-
+import  toast from "react-hot-toast";
+import axios from 'axios'
 const RegisterPage = () => {
   const navigate = useNavigate();
   const [userData, setUserData] = useState({
@@ -16,27 +17,28 @@ const RegisterPage = () => {
       [e.target.name]: e.target.value,
     }));
   };
-  const saveDataOnLocal = (e) => {
-    e.preventDefault();
-    const existingUserData = JSON.parse(localStorage.getItem("userData"));
-    if (existingUserData) {
-      const checkDuplicateUser = existingUserData.find(
-        (item) => item.email === userData.email
-      );
-      if (checkDuplicateUser) {
-        alert("User Email Alerdy Exists");
-        return;
+  const handleSubmit = async(e)=>{
+    e.preventDefault()
+    const {username:name,email,password,phone,address} = userData;
+    console.log(name)
+    try {
+      const res = await axios.post('http://localhost:8080/api/v1/auth/register',{name,email,password,phone,address})
+      
+      if(res.data.success){
+        toast.success("Register successfully.")
+        navigate('/auth/login')
+      }else{
+        toast.error("something went wrong")
       }
+    } catch (error) {
+      console.log(error)
+      toast.error("something went wrong")
     }
-    const existingData = [userData, ...(existingUserData || [])];
-    console.log(existingData);
-    localStorage.setItem("userData", JSON.stringify(existingData));
-    alert("Register successfully");
-    navigate("/login");
-  };
+  }
+  
   return (
     <div className="container mt-8">
-      <form className="w-4/12 mx-auto shadow-lg" onSubmit={saveDataOnLocal}>
+      <form className="w-4/12 mx-auto shadow-lg" onSubmit={handleSubmit}>
         <div className="p-8">
           <h2 className="text-4xl mb-8 font-medium">Register</h2>
           <div className=" mt-3">
@@ -103,7 +105,7 @@ const RegisterPage = () => {
             </button>
           </div>
           <div>
-            <Link to="/" className="underline">
+            <Link to="/auth/login" className="underline">
               Alerdy have an account?
             </Link>
           </div>

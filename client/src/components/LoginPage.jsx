@@ -1,8 +1,12 @@
+import axios from "axios";
 import React, { useState } from "react";
+import toast from "react-hot-toast";
+import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router";
-
+import { setAuth } from "../redux_store/authSlice";
 const LoginPage = () => {
-    const navigate = useNavigate()
+  const dispatch = useDispatch()
+  const navigate = useNavigate();
   const [userLoginDetail, setUserLoginDetail] = useState({
     email: "",
     password: "",
@@ -13,31 +17,31 @@ const LoginPage = () => {
       [e.target.name]: e.target.value,
     }));
   };
-  const ValidUser = (e) => {
-    e.preventDefault()
-    const existingUser = JSON.parse(localStorage.getItem("userData"));
-    if (existingUser) {
-      const isUser = existingUser.find(
-        (user) =>
-          user.email === userLoginDetail.email &&
-          user.password === userLoginDetail.password);
-          console.log(isUser)
-      if (isUser) {
-        alert("Login successfully");
-        localStorage.setItem("loginUser",JSON.stringify(isUser))
-        navigate('/Home')
+  const handleSubmit = async(e)=>{
+      e.preventDefault()
+      const {email,password} = userLoginDetail;
+      try {
+        const res = await axios.post('http://localhost:8080/api/v1/auth/login',{email,password})
+        
+        if(res.data.success){
+          toast.success(res.data.message)
+          dispatch(setAuth({user : res.data.user,
+            token : res.data.token
+          }))
+          localStorage.setItem('authLogin',JSON.stringify(res.data))
+          navigate('/')
+        }else{
+          toast.error("something went wrong")
+        }
+      } catch (error) {
+        console.log(error)
+        toast.error("something went wrong")
+      }
     }
-    else{
-        alert('Invalid Email or Password')
-    }
-} else {
-    alert("Your Not Register");
-    navigate('/Register')
-    }
-  };
+    
   return (
     <div className="container mt-8">
-      <form className="" onSubmit={ValidUser}>
+      <form className="" onSubmit={handleSubmit}>
         <div className="max-w-150 mx-auto shadow-lg border border-gray-400 p-8">
           <h2 className="font-medium text-4xl mb-8">Login</h2>
           <div className="mb-4">
@@ -63,12 +67,17 @@ const LoginPage = () => {
             />
           </div>
           <div className="col-12">
-            <button type="submit" className=" my-4 bg-blue-500 text-white px-8 py-2 rounded-lg">
+            <button
+              type="submit"
+              className=" my-4 bg-blue-500 text-white px-8 py-2 rounded-lg"
+            >
               Login
             </button>
           </div>
           <div>
-            <Link to="/Register" className="underline">Dont have an account?</Link>
+            <Link to="/auth/register" className="underline">
+              Dont have an account?
+            </Link>
           </div>
         </div>
       </form>

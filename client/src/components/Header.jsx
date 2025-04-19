@@ -1,9 +1,20 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link, NavLink } from "react-router-dom";
+import { setAuth } from "../redux_store/authSlice";
+import toast from "react-hot-toast";
 
 const Header = () => {
   const cartLength = useSelector((state) => state.cart.items);
+  const authObj = useSelector((state) => state.login.auth);
+  // console.log(authObj.user)
+  const dispatch = useDispatch();
+  const handleLogout = () => {
+    dispatch(setAuth({ user: null, token: "" }));
+    localStorage.removeItem("authLogin");
+
+    toast.success("Logout successfully.");
+  };
   const getLinkClass = ({ isActive }) =>
     `py-2 px-4  hover:bg-gray-200 transition-all duration-300 ${
       isActive ? "border-b-2 border-blue-700 text-blue-950 font-bold" : ""
@@ -26,9 +37,19 @@ const Header = () => {
         <NavLink to="/contactus" className={getLinkClass}>
           Contact Us
         </NavLink>
-        <NavLink to="/login" className={getLinkClass}>
-          Login
-        </NavLink>
+        {!authObj.user ? (
+          <NavLink to="/auth/login" className={getLinkClass}>
+            Login
+          </NavLink>
+        ) : (
+          <NavLink
+            to="/auth/login"
+            onClick={handleLogout}
+            className={getLinkClass}
+          >
+            Logout
+          </NavLink>
+        )}
         <NavLink to="/cart" className={getLinkClass}>
           <span>🛒</span>{" "}
           <span className="bg-red-500 inline-block w-6 text-center text-white  h-6 rounded-full">
