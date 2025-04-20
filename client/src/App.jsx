@@ -7,11 +7,19 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import ContactUs from "./components/ContactUs";
-import { Provider } from "react-redux";
-import store from "./redux_store/store";
 import Cart from "./components/Cart";
 import { Toaster } from "react-hot-toast";
 import Auth from "./components/Auth";
+import Private from "./Routes/Private";
+import Dashboard from "./components/Dashboard";
+import ForgotPassword from "./components/ForgotPassword";
+import AdminPrivate from "./Routes/AdminPrivate";
+import AdminDashboard from "./components/AdminDashboard";
+import CreateCategory from "./components/CreateCategory";
+import CreateProduct from "./components/CreateProduct";
+import Users from "./components/Users";
+import Order from "./components/Order";
+import UserProfile from "./components/UserProfile";
 function App() {
   return (
     <>
@@ -21,7 +29,7 @@ function App() {
         <Outlet />
       </main>
       <Footer />
-      </>
+    </>
   );
 }
 
@@ -35,21 +43,39 @@ export const router = createBrowserRouter([
       { path: "/about", element: <About /> },
       { path: "/contactus", element: <ContactUs /> },
       { path: "/cart", element: <Cart /> },
-      
     ],
   },
   {
     path: "/auth",
-    element : <Auth/>,
+    element: <Auth />,
     children: [
       {
-        path: '/auth/login',
+        path: "/auth/login",
         element: <LoginPage />,
       },
       {
         path: "/auth/Register",
         element: <RegisterPage />,
       },
+      {
+        path: "/auth/forgot-password",
+        element: <ForgotPassword />,
+      },
+    ],
+  },
+  {
+    path: "/Dashboard",
+    element: <Private />,
+    children: [{ path: "user", element: <Dashboard /> },{ path: "user/orders", element: <Order/> },{ path: "user/profile", element: <UserProfile /> }],
+  },
+  {
+    path: "/Dashboard",
+    element: <AdminPrivate />,
+    children: [
+      { path: "admin", element: <AdminDashboard /> },
+      { path: "admin/create-category", element: <CreateCategory /> },
+      { path: "admin/create-product", element: <CreateProduct /> },
+      { path: "admin/users", element: <Users /> },
     ],
   },
 ]);

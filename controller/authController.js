@@ -3,7 +3,7 @@ import userModel from "../models/userModel.js";
 import JWT from "jsonwebtoken";
 export const registerController = async (req, res) => {
   try {
-    const { name, email, password, phone, address } = req.body;
+    const { name, email, password, phone, address ,answer } = req.body;
     //v
     if (!name) {
       return res.send({ message: "Name is Required!!!" });
@@ -19,6 +19,10 @@ export const registerController = async (req, res) => {
     }
     if (!address) {
       return res.send({ message: "address is Required!!!" });
+    }
+    if(!answer){
+      return res.send({ message: "Answer is Required!!!" });
+
     }
     // check user
     const existingUser = await userModel.findOne({ email });
@@ -38,6 +42,7 @@ export const registerController = async (req, res) => {
       phone,
       address,
       password: hashedPassword,
+      answer
     }).save();
     res.status(201).send({
       success: true,
@@ -89,7 +94,8 @@ export const loginController = async (req, res) => {
         name : user.name,
         email : user.email,
         phone: user.phone,
-        address : user.address
+        address : user.address,
+        role : user.role
       },
       token ,
     });
@@ -106,4 +112,44 @@ export const loginController = async (req, res) => {
 //test
 export const testController =(req,res)=>{
  res.send('protected route')
+}
+
+export const forgotPasswordController = async(req,res)=>{
+try {
+  const {email,answer,newPassword} = req.body
+  if(!email){
+    res.send(400).send({
+      message : 'Email is required'
+    })
+  }
+  if(!answer){
+    res.send(400).send({
+      message : 'answer is required'
+    })
+  }
+  if(!newPassword){
+    res.send(400).send({
+      message : 'New Password is required'
+    })
+  }
+  const user = await userModel.findOne({email,answer})
+  if(!user){
+    res.status(200).send({
+      success : false,
+      message : 'wrong Email or Password',
+    })
+  }
+  const hashed = await hashPassword(newPassword)
+  await userModel.findByIdAndUpdate(user._id,{password:hashed})
+  res.status(200).send({
+    success : true,
+    message : 'Password Reseted Successfully.'
+  })
+} catch (error) {
+  console.log(error)
+  res.status(500).send({
+    success : false,
+    message : 'something went wrong'
+  })
+}
 }

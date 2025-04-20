@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, NavLink } from "react-router-dom";
 import { setAuth } from "../redux_store/authSlice";
 import toast from "react-hot-toast";
+import Dropdown from "./DropDown";
 
 const Header = () => {
   const cartLength = useSelector((state) => state.cart.items);
@@ -42,13 +43,10 @@ const Header = () => {
             Login
           </NavLink>
         ) : (
-          <NavLink
-            to="/auth/login"
-            onClick={handleLogout}
-            className={getLinkClass}
-          >
-            Logout
-          </NavLink>
+          <>
+            <Dropdown handleLogout={handleLogout} user={authObj?.user} />
+                  
+          </>
         )}
         <NavLink to="/cart" className={getLinkClass}>
           <span>🛒</span>{" "}
