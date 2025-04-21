@@ -11,7 +11,7 @@ const productSchema = mongoose.Schema(
       required: true,
     },
     description: {
-      type: Stirng,
+      type: String,
       required: true,
     },
     price: {
@@ -27,7 +27,7 @@ const productSchema = mongoose.Schema(
       required: true,
     },
     photo: {
-      type: data.Buffer,
+      data: Buffer,
       contentType: String,
     },
     shipping: {

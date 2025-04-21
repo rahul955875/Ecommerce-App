@@ -20,6 +20,7 @@ import CreateProduct from "./components/CreateProduct";
 import Users from "./components/Users";
 import Order from "./components/Order";
 import UserProfile from "./components/UserProfile";
+import UpdatedNameProvider from "./hook/UpdatedNameProvider";
 function App() {
   return (
     <>
@@ -66,14 +67,25 @@ export const router = createBrowserRouter([
   {
     path: "/Dashboard",
     element: <Private />,
-    children: [{ path: "user", element: <Dashboard /> },{ path: "user/orders", element: <Order/> },{ path: "user/profile", element: <UserProfile /> }],
+    children: [
+      { path: "user", element: <Dashboard /> },
+      { path: "user/orders", element: <Order /> },
+      { path: "user/profile", element: <UserProfile /> },
+    ],
   },
   {
     path: "/Dashboard",
     element: <AdminPrivate />,
     children: [
       { path: "admin", element: <AdminDashboard /> },
-      { path: "admin/create-category", element: <CreateCategory /> },
+      {
+        path: "admin/create-category",
+        element: (
+          <UpdatedNameProvider>
+            <CreateCategory />
+          </UpdatedNameProvider>
+        ),
+      },
       { path: "admin/create-product", element: <CreateProduct /> },
       { path: "admin/users", element: <Users /> },
     ],

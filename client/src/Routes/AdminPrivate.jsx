@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import { Outlet } from "react-router-dom";
 import Loading from "../components/Loading";
 import Header from "../components/Header";
+import { Toaster } from "react-hot-toast";
 
 export default function AdminPrivate() {
   const [ok, setOk] = useState(false);
@@ -28,6 +29,7 @@ export default function AdminPrivate() {
   }, []);
   return ok ? (
     <>
+    <Toaster/>
       <Header />
       <Outlet />
     </>
