@@ -11,8 +11,8 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => setProductAllData(data.data));
   }, []);
-  console.log(productAllData.data);
-  return <pre className="mt-20">{JSON.stringify(auth,null,100)}</pre>
+  // console.log(productAllData.data);
+ 
   return ( 
     <div className="min-h-100 py-8 px-8">
       <h2 className="text-2xl">OUR COLLECTIONS</h2>
@@ -42,7 +42,7 @@ const Home = () => {
                   <div className="product-body p-2">
                     <h4 className="text-xl font-medium">{product.name}</h4>
                     <h4 className="text-gray-700">
-                      PRICE :{" "}
+                      PRICE :
                       <span className="text-2xl font-bold text-black">
                         {product.price}
                       </span>

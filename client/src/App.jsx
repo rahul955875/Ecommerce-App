@@ -23,6 +23,7 @@ import UserProfile from "./components/UserProfile";
 import UpdatedNameProvider from "./hook/UpdatedNameProvider";
 import ProductsList from "./components/ProductsList";
 import UpdateProduct from "./components/UpdateProduct";
+import HomePage from "./components/HomePage";
 function App() {
   return (
     <>
@@ -42,7 +43,7 @@ export const router = createBrowserRouter([
     element: <App />,
     errorElement: <h1>Page NOT Found</h1>,
     children: [
-      { path: "/", element: <Home /> },
+      { path: "/", element: <HomePage /> },
       { path: "/about", element: <About /> },
       { path: "/contactus", element: <ContactUs /> },
       { path: "/cart", element: <Cart /> },
