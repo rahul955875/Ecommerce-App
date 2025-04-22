@@ -3,11 +3,16 @@ import AdminMenu from "./AdminMenu";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import ConfirmModal from "./Form/ConfirmModal";
 
-const CreateProduct = () => {
+const UpdateProduct = () => {
   const auth = useSelector((state) => state.login.auth);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  const { slug } = useParams();
+  const [id, setId] = useState("");
+  //confirm modal state
+  const [ConfirmOpen, setConfirmOpen] = useState(false);
   const [categories, setCategories] = useState([]);
   const [category, setCategory] = useState("");
   const [photo, setPhoto] = useState({});
@@ -18,6 +23,31 @@ const CreateProduct = () => {
     shipping: "",
     quantity: "",
   });
+  //get single product data
+  const getSingleProduct = async () => {
+    try {
+      const { data } = await axios.get(
+        `http://localhost:8080/api/v1/products/get-product/${slug}`
+      );
+      console.log(data.product);
+      if (data?.success) {
+        const { _id, name, description, price, shipping, quantity, category } =
+          data.product;
+
+        setId(_id);
+        setProductDetails({
+          name,
+          description,
+          price,
+          shipping: Number(shipping),
+          quantity,
+        });
+        setCategory(category._id);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   //get all products
   const getAllCategories = async () => {
@@ -40,15 +70,12 @@ const CreateProduct = () => {
   //create product function
   const handleCreate = async (e) => {
     e.preventDefault();
-    if (!photo?.name) {
-      toast.error("please select product photo");
-      return;
-    }
     const productFormData = new FormData(e.target);
+    photo?.name && productFormData.append("photo", photo);
     console.log(productFormData);
     try {
-      const { data } = await axios.post(
-        "http://localhost:8080/api/v1/products/create-product",
+      const { data } = await axios.put(
+        `http://localhost:8080/api/v1/products/update-product/${id}`,
         productFormData,
         {
           headers: {
@@ -59,7 +86,7 @@ const CreateProduct = () => {
       console.log(data);
       if (data?.success) {
         toast.success(data?.message);
-        navigate('/dashboard/admin/products')
+        navigate("/dashboard/admin/products");
       } else {
         toast.error(data?.message);
       }
@@ -68,8 +95,32 @@ const CreateProduct = () => {
       toast.error("something went wrong");
     }
   };
+  //delete product
+  const handleDelete = async () => {
+    try {
+      const { data } = await axios.delete(
+        `http://localhost:8080/api/v1/products/delete-product/${id}`,
+        {
+          headers: {
+            Authorization: auth?.token,
+          },
+        }
+      );
+      if (data?.success) {
+        toast.success(data.message);
+        navigate("/dashboard/admin/products");
+      } else {
+        toast.error(data?.message);
+      }
+    } catch (error) {
+      console.log(error);
+      toast.error(error?.message);
+    }
+  };
+
   useEffect(() => {
     getAllCategories();
+    getSingleProduct();
   }, []);
   return (
     <div className="flex mt-20 p-4 ">
@@ -77,7 +128,7 @@ const CreateProduct = () => {
         <AdminMenu />
       </div>
       <div className="content p-2 bg-slate-200 w-full border border-gray ">
-        <h2 className="text-3xl">Create Product</h2>
+        <h2 className="text-3xl font-medium mb-4">Update Product</h2>
         <form onSubmit={handleCreate}>
           <div className="product-form w-6/12">
             <select
@@ -114,11 +165,19 @@ const CreateProduct = () => {
               </label>
             </div>
             <div className="mb-4">
-              {photo?.name && (
+              {photo?.name ? (
                 <div className="photo">
                   <img
                     className="w-full bg-contain"
                     src={URL.createObjectURL(photo)}
+                    alt={photo?.name || "proudct photo"}
+                  />
+                </div>
+              ) : (
+                <div className="photo">
+                  <img
+                    className="w-full bg-contain"
+                    src={`http://localhost:8080/api/v1/products/product-photo/${id}`}
                     alt={photo?.name || "proudct photo"}
                   />
                 </div>
@@ -186,14 +245,29 @@ const CreateProduct = () => {
                 type="submit"
                 className="w-full px-4 py-2 rounded bg-blue-500 text-white cursor-pointer hover:bg-blue-700"
               >
-                Create Prouduct
+                Update Prouduct
+              </button>
+            </div>
+            <div className="mb-4">
+              <button
+                onClick={() => setConfirmOpen(true)}
+                type="button"
+                className="w-full px-4 py-2 rounded bg-red-500 text-white cursor-pointer hover:bg-red-700"
+              >
+                Delete Prouduct
               </button>
             </div>
           </div>
         </form>
+        <ConfirmModal
+          title={`Delete Product - ${productDetails.name}`}
+          modalDescription={"You really wants to delete this Product?"}
+          updateState={[ConfirmOpen, setConfirmOpen]}
+          handleFunction={handleDelete}
+        />
       </div>
     </div>
   );
 };
 
-export default CreateProduct;
+export default UpdateProduct;

@@ -21,6 +21,8 @@ import Users from "./components/Users";
 import Order from "./components/Order";
 import UserProfile from "./components/UserProfile";
 import UpdatedNameProvider from "./hook/UpdatedNameProvider";
+import ProductsList from "./components/ProductsList";
+import UpdateProduct from "./components/UpdateProduct";
 function App() {
   return (
     <>
@@ -78,6 +80,7 @@ export const router = createBrowserRouter([
     element: <AdminPrivate />,
     children: [
       { path: "admin", element: <AdminDashboard /> },
+      {path:"admin/products", element:<ProductsList/>},
       {
         path: "admin/create-category",
         element: (
@@ -87,6 +90,7 @@ export const router = createBrowserRouter([
         ),
       },
       { path: "admin/create-product", element: <CreateProduct /> },
+      { path: "admin/products/:slug", element: <UpdateProduct /> },
       { path: "admin/users", element: <Users /> },
     ],
   },

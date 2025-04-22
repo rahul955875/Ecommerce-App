@@ -6,9 +6,12 @@ import CategoryForm from "./Form/CategoryForm";
 import { useSelector } from "react-redux";
 import Modal from "./Form/Modal";
 import { useName } from "../hook/UpdatedNameProvider";
+import ConfirmModal from "./Form/ConfirmModal";
 const CreateCategory = () => {
   const [categories, setCategories] = useState([]);
   const [name, setName] = useState("");
+  //confirm modal box state
+  const [ConfirmOpen, setConfirmOpen] = useState(false);
   //modal
   const [open, setOpen] = useState(false);
   //modal updated value
@@ -31,6 +34,7 @@ const CreateCategory = () => {
       toast.success("somethig went wrong while getting category");
     }
   };
+  //create category
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -44,8 +48,9 @@ const CreateCategory = () => {
         }
       );
       if (data?.success) {
-        toast.success(`${name} is created`);
+        toast.success(`${name} Category is Created`);
         getAllCategories();
+        setName("");
       } else {
         toast.error(data.message);
       }
@@ -54,7 +59,7 @@ const CreateCategory = () => {
       toast.error("something went wrong.");
     }
   };
-
+  //update category
   const handleUpdate = async (e) => {
     e.preventDefault();
     try {
@@ -71,7 +76,31 @@ const CreateCategory = () => {
         toast.success(`category updated to ${updatedName}`);
         setSelectedId(null);
         setUpdatedName("");
-        setOpen(false)
+        setOpen(false);
+        getAllCategories();
+      } else {
+        toast.error(data.message);
+      }
+    } catch (error) {
+      toast.error("something went wrong");
+    }
+  };
+  //delete category
+  const handleDelete = async (e) => {
+    e.preventDefault();
+    try {
+      const { data } = await axios.delete(
+        `http://localhost:8080/api/v1/category/delete-category/${selectedId}`,
+        {
+          headers: {
+            Authorization: auth?.token,
+          },
+        }
+      );
+      if (data.success) {
+        toast.success(data.message);
+        setSelectedId(null);
+        setConfirmOpen(false);
         getAllCategories();
       } else {
         toast.error(data.message);
@@ -110,7 +139,7 @@ const CreateCategory = () => {
             <tbody>
               {categories.map((c) => (
                 <tr key={c._id}>
-                  <td className="">{c.name}</td>
+                  <td className="p-4">{c.name}</td>
                   <td>
                     <button
                       className="px-4 py-2 rounded-2xl bg-blue-300"
@@ -122,12 +151,27 @@ const CreateCategory = () => {
                     >
                       Edit
                     </button>
+                    <button
+                      className="px-4 py-2 rounded-2xl bg-red-300 ml-2"
+                      onClick={() => {
+                        setSelectedId(c._id);
+                        setConfirmOpen(true);
+                      }}
+                    >
+                      Delete
+                    </button>
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
           <Modal open={open} setOpen={setOpen} handleUpdate={handleUpdate} />
+          <ConfirmModal
+            title={"Delete Category"}
+            modalDescription={"You really wants to delete this category?"}
+            updateState={[ConfirmOpen, setConfirmOpen]}
+            handleFunction={handleDelete}
+          />
         </div>
       </div>
     </div>
