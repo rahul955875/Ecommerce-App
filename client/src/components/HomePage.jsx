@@ -56,6 +56,7 @@ const HomePage = () => {
     }
     setChecked(all);
   };
+
   return (
     <div className="min-h-100 py-8 px-8 flex">
       <div className="filters w-3/12">
@@ -89,24 +90,38 @@ const HomePage = () => {
         </div>
       </div>
       <div className="products w-full">
-        <h1 className="text-3xl font-medium">All Products</h1>
-        <div className="products-cards  mt-8 justify-center flex flex-wrap gap-8">
-          {products.map((p) => {
-            return (
-              <Card
-                key={p._id}
-                id={p._id}
-                name={p.name}
-                description={p.description}
-                price={p.price}
-                rating={4}
-                shipping={p.shipping ? "Yes" : "No"}
-                handleClick={() => () =>
-                  dispatch(addToCart({ ...p, count: 1 }))
-                }
-              />
-            );
-          })}
+        <h1 className="text-4xl font-medium">All Products</h1>
+        <div className="products-cards  mt-8  flex flex-wrap gap-4">
+          {console.log(products)}
+          {products
+            .filter((p) =>
+              p?.category._id === checked.find((c) => c === p?.category._id) ||
+              !checked.length
+                ? true
+                : false
+            )
+            .filter((p) =>
+              (p.price >= priceRadio[0] && p.price <= priceRadio[1]) ||
+              !priceRadio.length
+                ? true
+                : false
+            )
+            .map((p) => {
+              return (
+                <Card
+                  key={p._id}
+                  id={p._id}
+                  name={p.name}
+                  description={p.description}
+                  price={p.price}
+                  rating={4}
+                  shipping={p.shipping ? "Yes" : "No"}
+                  handleClick={() => () =>
+                    dispatch(addToCart({ ...p, count: 1 }))
+                  }
+                />
+              );
+            })}
         </div>
       </div>
     </div>

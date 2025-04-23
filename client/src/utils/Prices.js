@@ -29,4 +29,9 @@ export const prices = [
         name:'₹2000 or more',
         array : [2000,50000]
     },
+    {
+        _id : 7,
+        name:'Remove Filter',
+        array : []
+    },
 ]
