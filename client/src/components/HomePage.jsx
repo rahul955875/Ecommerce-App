@@ -13,17 +13,28 @@ const HomePage = () => {
   const [checked, setChecked] = useState([]);
   //prices radios
   const [priceRadio, setPriceRadio] = useState([]);
+  const [totalItems, setTotalItems] = useState(0);
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
+
   //get products
   const getAllProducts = async () => {
     try {
+      setLoading(true);
       const { data } = await axios.get(
-        "http://localhost:8080/api/v1/products/get-product"
+        `http://localhost:8080/api/v1/products/product-list/${page}`
       );
-      if (data?.success) {
+      console.log(data.products);
+      setLoading(false);
+      console.log(page);
+      if (page === 1) {
         setProducts(data.products);
-        // console.log(data.products)
+      } else {
+        setProducts((prev) => [...prev, ...data.products]);
       }
+      // console.log(data.products)
     } catch (error) {
+      setLoading(true);
       console.log(error);
     }
   };
@@ -33,7 +44,6 @@ const HomePage = () => {
       const { data } = await axios.get(
         "http://localhost:8080/api/v1/category/get-category"
       );
-      console.log(data);
       if (data?.success) {
         setCategories(data.category);
       }
@@ -41,11 +51,42 @@ const HomePage = () => {
       console.log(error);
     }
   };
+  //get fitlered products
+  const filterProducts = async () => {
+    try {
+      console.log(checked,priceRadio)
+      const { data } = await axios.post(
+        "http://localhost:8080/api/v1/products/product-filter",
+        { checked, priceRadio }
+      );
+
+      setProducts(data?.products);
+    } catch (error) {
+      console.log(error);
+      toast.error("something went wrong");
+    }
+  };
+
+  //get total product count
+  const totalCount = async () => {
+    try {
+      const { data } = await axios.get(
+        "http://localhost:8080/api/v1/products/product-count"
+      );
+      setTotalItems(data?.total);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getAllCategories();
+    totalCount();
+  }, []);
 
   useEffect(() => {
     getAllProducts();
-    getAllCategories();
-  }, []);
+  }, [page]);
 
   const handleFilter = (isChecked, id) => {
     let all = [...checked];
@@ -56,6 +97,9 @@ const HomePage = () => {
     }
     setChecked(all);
   };
+  useEffect(() => {
+    if (checked.length || priceRadio.length) filterProducts();
+  }, [checked, priceRadio]);
 
   return (
     <div className="min-h-100 py-8 px-8 flex">
@@ -92,36 +136,32 @@ const HomePage = () => {
       <div className="products w-full">
         <h1 className="text-4xl font-medium">All Products</h1>
         <div className="products-cards  mt-8  flex flex-wrap gap-4">
-          {console.log(products)}
-          {products
-            .filter((p) =>
-              p?.category._id === checked.find((c) => c === p?.category._id) ||
-              !checked.length
-                ? true
-                : false
-            )
-            .filter((p) =>
-              (p.price >= priceRadio[0] && p.price <= priceRadio[1]) ||
-              !priceRadio.length
-                ? true
-                : false
-            )
-            .map((p) => {
-              return (
-                <Card
-                  key={p._id}
-                  id={p._id}
-                  name={p.name}
-                  description={p.description}
-                  price={p.price}
-                  rating={4}
-                  shipping={p.shipping ? "Yes" : "No"}
-                  handleClick={() => () =>
-                    dispatch(addToCart({ ...p, count: 1 }))
-                  }
-                />
-              );
-            })}
+          {products.map((p) => {
+            return (
+              <Card
+                key={p._id}
+                id={p._id}
+                name={p.name}
+                description={p.description}
+                price={p.price}
+                rating={4}
+                shipping={p.shipping ? "Yes" : "No"}
+                handleClick={() => () =>
+                  dispatch(addToCart({ ...p, count: 1 }))
+                }
+              />
+            );
+          })}
+        </div>
+        <div className="mt-8">
+          {products && products.length < totalItems && (
+            <button
+              className="px-4 py-2 text-xl border border-gray-700 rounded"
+              onClick={() => setPage(page + 1)}
+            >
+              {loading ? "Loading..." : "Load More"}
+            </button>
+          )}
         </div>
       </div>
     </div>

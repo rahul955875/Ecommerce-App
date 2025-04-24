@@ -153,7 +153,11 @@ export const updateProductController = async (req, res) => {
           .send({ error: "Photo is required! and should be less than 1 mb" });
     }
 
-    const products = await productModel.findByIdAndUpdate(req.params.pid,{...req.fields,slug:slugify(name)},{new:true})
+    const products = await productModel.findByIdAndUpdate(
+      req.params.pid,
+      { ...req.fields, slug: slugify(name) },
+      { new: true }
+    );
     if (photo) {
       products.photo.data = fs.readFileSync(photo.path);
       products.photo.contentType = photo.type;
@@ -172,3 +176,71 @@ export const updateProductController = async (req, res) => {
     });
   }
 };
+
+//proudct count
+export const productCountController = async (req, res) => {
+  try {
+    const total = await productModel.find({}).estimatedDocumentCount();
+    res.status(200).send({
+      success: true,
+      total,
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).send({
+      success: false,
+      message: "Error in products count",
+      error,
+    });
+  }
+};
+
+// prodcut list per page
+export const productListController = async (req, res) => {
+  try {
+    const perPage = 4;
+    const page = req.params.page ? req.params.page : 1;
+    const products = await productModel
+      .find({})
+      .select("-photo")
+      .skip((page - 1) * perPage)
+      .limit(perPage)
+   
+    res.status(200).send({
+      success: true,
+      products,
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).send({
+      success: false,
+      message: "Error while getting Product list per page",
+      error,
+    });
+  }
+};
+
+// product filter controller
+export const productFitlerController = async(req,res)=>{
+  try {
+    const {checked,priceRadio} = req.body
+    const args = {}
+    if(checked.length) args.category = checked
+    if(priceRadio.length) args.price = {$gte:priceRadio[0],$lte:priceRadio[1]}
+    console.log(args)
+    const products = await productModel.find(args)
+    res.status(200).send({
+      success : true,
+      products
+    })
+  } catch (error) {
+    console.log(error)
+     res.status(500).send(
+      {
+        success : false,
+        message : 'Error in fitlering products',
+        error
+      }
+    )
+  }
+}

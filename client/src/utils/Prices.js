@@ -32,6 +32,6 @@ export const prices = [
     {
         _id : 7,
         name:'Remove Filter',
-        array : []
+        array : [0,99999]
     },
 ]
