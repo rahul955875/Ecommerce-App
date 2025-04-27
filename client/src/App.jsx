@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mt-16">
+      <main className="mt-24">
         <Toaster />
         <Outlet />
       </main>
@@ -43,7 +43,7 @@ export const router = createBrowserRouter([
     element: <App />,
     errorElement: <h1>Page NOT Found</h1>,
     children: [
-      { path: "/", element: <HomePage /> },
+      { path: "/", element: <Home /> },
       { path: "/about", element: <About /> },
       { path: "/contactus", element: <ContactUs /> },
       { path: "/cart", element: <Cart /> },

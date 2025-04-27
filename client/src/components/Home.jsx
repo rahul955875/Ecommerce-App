@@ -14,7 +14,7 @@ const Home = () => {
   // console.log(productAllData.data);
  
   return ( 
-    <div className="min-h-100 py-8 px-8">
+    <div className="min-h-100 py-4 px-8">
       <h2 className="text-2xl">OUR COLLECTIONS</h2>
       <div className="products-link mt-8">
         {productAllData?.map((products) => (

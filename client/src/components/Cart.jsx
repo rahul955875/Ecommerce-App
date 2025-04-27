@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { clearCart } from "../redux_store/cartSlice";
+import { addToCart, clearCart, removeCartItem, removeFromCart } from "../redux_store/cartSlice";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);
@@ -42,7 +42,12 @@ const Cart = () => {
               </h4>
               <p className="text-gray-700">{product.description}</p>
               <p>Rating : {product.rating}</p>
-              <div className="count">{product.count}</div>
+              <div className="cart-btns mt-4">
+                <button onClick={()=>dispatch(removeCartItem({...product}))}  className="px-4 bg-blue-100">-</button>
+                <span className="mx-2">{product.count}</span>
+                <button onClick={()=>dispatch(addToCart({...product}))} className="px-4  bg-blue-100">+</button>
+                <button onClick={()=>dispatch(removeFromCart(product))} className="ml-8 bg-red-200 rounded px-2">Remove</button>
+              </div>
             </div>
           </div>
         ))}

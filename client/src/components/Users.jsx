@@ -7,7 +7,7 @@ const Users = () => {
         <AdminMenu/>
     </div>
     <div className="content bg-slate-200 w-full border border-gray p-4 ">
-    Users
+    <h2 className="text-3xl">Users</h2>
     </div>
   </div>;;
 };
